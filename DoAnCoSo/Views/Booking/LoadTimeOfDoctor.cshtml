@@ -1,0 +1,8 @@
+﻿@model IEnumerable<DoAnCoSo.Models.GIOKHAM>
+
+<select class="form-control" name="time">
+    @foreach (var item in Model)
+    {
+        <option>@item.GIOKHAM1</option>
+    }
+</select>
